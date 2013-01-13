@@ -1,0 +1,49 @@
+{
+    "preferences": [
+        {
+            "type": "string",
+            "name": "masterKey",
+            "value": "",
+            "title": "Private Key"
+        },
+        {
+            "type": "integer",
+            "name": "passwordLength",
+            "value": 14,
+            "title": "Password Length"
+        },
+        {
+            "type": "menulist",
+            "name": "passwordStrength",
+            "value": 2,
+            "title": "Password Strength",
+            "options": [
+                {
+                    "value": "0",
+                    "label": "Numeric"
+                },
+                {
+                    "value": "1",
+                    "label": "Alphanumeric"
+                },
+                {
+                    "value": "2",
+                    "label": "Alphanumeric + Special"
+                }
+            ]
+        },
+        {
+            "type": "bool",
+            "name": "sendToClipboard",
+            "value": true,
+            "title": "Hash to clipboard"
+        }
+    ],
+    "name": "passwordhasherplus",
+    "license": "MPL 2.0",
+    "author": "Daniel Tralamazza",
+    "version": "0.1",
+    "fullName": "Password Hasher Plus",
+    "id": "jid1-dDwlFGw1oglWfA",
+    "description": "A Password Hasher Plus port"
+}
